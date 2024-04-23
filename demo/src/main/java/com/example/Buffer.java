@@ -36,5 +36,6 @@ class Buffer {
         System.out.println("Consumidor consume: " + elemento);
         notify(); // Notifica a los productores que hay espacio disponible
         return elemento;
+        //f
     }
 }
