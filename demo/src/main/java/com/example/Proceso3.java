@@ -1,3 +1,5 @@
+package com.example;
+
 public class Proceso3 implements Runnable {
     private final Buffer buffer1;
     private final Buffer buffer2;
@@ -11,10 +13,10 @@ public class Proceso3 implements Runnable {
     public void run() {
         while (true) { // Loop infinito, puede ajustarse según la lógica del proceso
             // Tomar dos elementos del buffer1
-            String x = buffer1.extraer();
-            String y = buffer1.extraer();
+            int x = buffer1.extraer();
+            int y = buffer1.extraer();
             // Sumar los elementos (aquí se asume concatenación para simplificar)
-            String resultado = x + y;
+            int resultado = x + y;
             // Agregar el resultado al buffer2
             buffer2.insertar(resultado);
         }

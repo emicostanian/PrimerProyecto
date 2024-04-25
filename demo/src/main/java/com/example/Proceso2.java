@@ -13,7 +13,7 @@ public class Proceso2 implements Runnable {
     public void run() {
         int count = 0; // Initialize a counter
         while (count < 30) { // End condition for the loop
-            String elemento = buffer1.extraer(); // Extract an element from buffer1
+            int elemento = buffer1.extraer(); // Extract an element from buffer1
             buffer2.insertar(elemento); // Insert the element into buffer2
             buffer1.insertar(elemento); // Return the element to buffer1
             count++; // Increment the counter
