@@ -15,6 +15,7 @@ class Buffer {
         this.cola = 0;
     }
 
+    //PROCESO 1 (INSERTA ENTEROS)
     public synchronized void insertar(int elemento) throws InterruptedException {
         while (count == capacidad) {
             wait(); // Espera si el buffer está lleno

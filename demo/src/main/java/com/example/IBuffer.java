@@ -6,4 +6,6 @@ public interface IBuffer {
 
     // Método para extraer un elemento del buffer
     int extraer() throws InterruptedException;
+
+    int[] imprimirElementos(); //Imprime los elemnetos del buffer
 }
