@@ -13,7 +13,7 @@ class Productor implements Runnable {
             int item = 1;
             while (true) {
                 buffer.insertar(item++);
-                Thread.sleep(1000); // Simula un proceso de producción
+                Thread.sleep(5000); // Simula un proceso de producción
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

@@ -39,4 +39,10 @@ class Buffer {
         return elemento;
         //f
     }
+
+    public synchronized void devolverElementos(){
+        for(int i : this.buffer){
+            System.out.print(i + " ");
+        }
+    }
 }

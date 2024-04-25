@@ -12,7 +12,7 @@ class Consumidor implements Runnable {
         try {
             while (true) {
                 buffer.extraer();
-                Thread.sleep(2000); // Simula un proceso de consumo
+                Thread.sleep(5000); // Simula un proceso de consumo
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
