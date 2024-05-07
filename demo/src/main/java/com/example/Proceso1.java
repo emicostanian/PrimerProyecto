@@ -37,4 +37,3 @@ public class Proceso1 implements Runnable {
         return random.nextInt(101); 
     }
 }
-

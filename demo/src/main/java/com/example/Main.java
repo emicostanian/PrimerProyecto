@@ -17,8 +17,6 @@ public class Main {
         proceso1.start();
         proceso2.start();
         proceso3.start();
-        proceso4.start();
-
-        
+        proceso4.start();   
     }
 }
